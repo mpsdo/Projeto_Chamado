@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Log in</title>
+  <title>AdminLTE 3 | Cadastrar</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -25,24 +25,27 @@
     <div class="card-body login-card-body bg-primary ">
 
       <form action="#" method="post">
-        <div class="form-group mb-5">
+        <div class="form-group mb-3">
+          <input type="text" name="nome" id="nome" placeholder="Nome" class="form-control form-control-sm">
+        </div>
+        <div class="form-group mb-3">
+          <input type="email" name="email" id="email" placeholder="Email" class="form-control form-control-sm">
+        </div>
+        <div class="form-group mb-3">
           <input type="text" name="usuario" id="usuario" placeholder="Usuário" class="form-control form-control-sm">
         </div>
-        <div class="form-group mb-5">
+        <div class="form-group mb-3">
           <input type="password" name="senha" id="senha" placeholder="Senha" class="form-control form-control-sm">
+        </div>
+        <div class="form-group mb-5">
+          <input type="password" name="senha-retype" id="senha-retype" placeholder="Redigitar Senha" class="form-control form-control-sm">
         </div>
         <div class="row">
           <!-- /.col -->
-          <div class="col-6">
-            <div class="float-left">
-              <button type="submit" class="btn btn-default btn-lg text-primary">Entrar</button>
+          <div class="col-12">
+            <div class="text-center">
+              <button type="submit" class="btn btn-default btn-lg text-primary">Cadastrar</button>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="float-right">
-              <a href="login-register.html" class="btn btn-default btn-lg text-primary">Registrar</a>
-            </div>
-            
           </div>
           <!-- /.col -->
         </div>
